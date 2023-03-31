@@ -8,7 +8,6 @@ public class Dia6extra11 {
         Scanner leer = new Scanner(System.in);
         
         int i = 0;
-        int n = 0;
         
         System.out.println("Escriba un numero");
         
@@ -17,14 +16,12 @@ public class Dia6extra11 {
         while(num != 0){
             i = i + 1;
             
-            n = trun num / 10;
-            
+            num = num / 10;
             
         }
         
-        System.out.println(n);
-        System.out.println(i);
-        System.out.println(num);
+        System.out.println("el numero tiene: "+i+" digitos");
+        
     }
     
 }
